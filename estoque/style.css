@@ -1,0 +1,28 @@
+body {
+    background-color: #f2f2f248;
+}
+
+nav {
+    background-color: #6e656534;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    border-radius: 10px;
+}
+
+a {
+
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 5px;
+transition: all 0.5s ease;
+}
+
+a:hover {
+    background-color: #000;
+    color: #fff;
+}
